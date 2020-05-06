@@ -104,7 +104,6 @@ def solver(board):
     else:   # if number not valid
       continue
 
-
 if __name__ == "__main__":
   print("Un-solved Board")
   displayBoard(board)
