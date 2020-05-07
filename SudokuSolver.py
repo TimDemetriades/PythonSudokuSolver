@@ -11,7 +11,7 @@ board = [               # Sudoku Board
  [0,0,0,0,0,0,0,0,0],   # 8
  [7,1,4,0,2,0,0,8,0]    # 9
 ]
-
+ 
 def displayBoard(board):
   """
   prints the board
@@ -62,7 +62,7 @@ def validNumber(board, number, position):
 
   # Then check column
   for i in range(9):
-    if board[i][position[1]] == number and i != position[1]:   # check if equal in column and not position we just entered number
+    if board[i][position[1]] == number and i != position[0]:   # check if equal in column and not position we just entered number
       return False
 
   # Finally, check square
