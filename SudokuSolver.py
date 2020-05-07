@@ -105,7 +105,7 @@ def solver(board):
       continue
 
 if __name__ == "__main__":
-  print("Un-solved Board")
+  print("Unsolved Board")
   displayBoard(board)
 
   startTime = time.time()

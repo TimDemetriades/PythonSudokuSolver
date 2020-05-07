@@ -103,7 +103,7 @@ if __name__ == "__main__":
     board = makeListofLists(9, puzzleHardList)
 
   print("")
-  print("Un-solved Board")
+  print("Unsolved Board")
   displayBoard(board)
 
   startTime = time.time()
