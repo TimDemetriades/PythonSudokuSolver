@@ -1,8 +1,6 @@
 import requests
 import re
 import ast
-import time
-import sys
 import tkinter as tk
 import tkinter.ttk as ttk
 from SudokuSolver import displayBoard, solver
