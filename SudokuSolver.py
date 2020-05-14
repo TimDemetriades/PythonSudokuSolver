@@ -20,11 +20,11 @@ def displayBoard(board):
   """
 
   for i in range(len(board)):   # rows
-    if i % 3 == 0 and i != 0:
+    if i % 3 == 0 and i != 0:   # when i is divisible by 3 and when i is not 0
       print("-------------------------")  # horiontal lines
 
     for j in range(len(board[0])):    # columns
-      if j % 3 == 0 and j != 0:
+      if j % 3 == 0 and j != 0:       # when j is divisible by 3 and when j is not 0
         print(" | "+ ' ', end = '')    # vertical lines (end = '' is used to not end with newline (\n))
 
       if j == 8:    # last value in row
